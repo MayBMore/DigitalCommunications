@@ -157,8 +157,13 @@ plot(t,Qch);</code>
 >  > * subplot 1.5 : I-channel
 >  > * subplot 1.6 : Q-channel
 
+> *참고자료*
+> * Linear Detector g(t)
+>  noise 대비 수신 성능 개선을 위한 사전 filtering 처리
+> 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4ODQwOTI1OCwyMzE1NzA5OTAsLTg1Mz
+eyJoaXN0b3J5IjpbMTg2MDgxMTc2OSwyMzE1NzA5OTAsLTg1Mz
 EyMjc5N119
 -->
