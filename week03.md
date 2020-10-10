@@ -122,8 +122,11 @@ RFsignal = real(bbsignal).*cos(2*pi*fc*t) - imag(bbsignal).*sin(2*pi*fc*t);
 subplot(N_subFig,1,4);
 plot(t,RFsignal);</code>
 </pre>
->* TX에서 up-conversion (RX에서 down-conversi
+> * RF signal(bandpass signal)을 알 수 있음
+>* TX에서 up-conversion (RX에서 down-conversion)
+> * .*은 요소별 곱
+> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNTk0MDA0MCwyMzE1NzA5OTAsLTg1Mz
+eyJoaXN0b3J5IjpbMTc3MDkxODE2OCwyMzE1NzA5OTAsLTg1Mz
 EyMjc5N119
 -->
