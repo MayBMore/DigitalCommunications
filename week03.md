@@ -88,7 +88,9 @@ end</code>
 
 > *참고 개념 : Baseband*
 > * low pass
-> * fc term 없
+> * fc term 없음 -> 간단
+> * 복소수로 간단하게 표현 가능
+> * s(t)는 주파수 대역이 fc+W에 이르는 반면, s(t) tilt는 W가 최대 주파수
 
 #### DAC
 <pre>
@@ -154,6 +156,6 @@ plot(t,Qch);</code>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MzEwMjg4MiwyMzE1NzA5OTAsLTg1Mz
-EyMjc5N119
+eyJoaXN0b3J5IjpbNDM2ODczNzIxLDIzMTU3MDk5MCwtODUzMT
+IyNzk3XX0=
 -->
