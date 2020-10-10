@@ -12,12 +12,12 @@ Tp = [2 3 5 6 7 8 9 100];</code>
 
 > * ht의 length를 1024로 설정함
 > * time delay spread에 따라 그래프가 달라짐
-
-#### impluse response
+```
+#### *참조 개념 : impluse response*
 *  Band-pass system에 대한 baseband representation 정의
 * 일반 baseband representation과 유사하게 복소수로 표현
 > h(t) = 2hI(t)cos(2pifct)-2hQ(t)sin(2pifct)
-
+```
 ### generating impulse response
 <pre>
 <code>%generating impulse response
@@ -42,7 +42,8 @@ plot(abs(H));</code>
 > * figure(100) : 그래프 창 생성
 > * plot(abs(H)) : H의 절댓값한 그래프를 그려라.
 
+***
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MzU0NDgwMywtODUzMTIyNzk3XX0=
+eyJoaXN0b3J5IjpbLTE5NTQ4Njg4NzEsLTg1MzEyMjc5N119
 -->
