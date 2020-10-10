@@ -65,7 +65,8 @@ t = [1/fs : 1/fs : Tmax];   % time vector
 N_subFig = 6;</code>
 </pre>
 
-> * t 벡터는 1/fs에서 Tmax까지 1/fs만
+> * t 는 1/fs에서 Tmax까지 1/fs만큼 증가하는 벡터를 만들라
+> N_subFig는 그래프 그릴 때 
 ```
 참조 개념 : impluse response
 *  Band-pass system에 대한 baseband representation 정의
@@ -96,5 +97,5 @@ plot(abs(H));</code>
 > * figure(100) : 그래프 창 생성
 > * plot(abs(H)) : H의 절댓값한 그래프를 그려라.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MjExMDIyNywtODUzMTIyNzk3XX0=
+eyJoaXN0b3J5IjpbMTI2MjExMTQ5NywtODUzMTIyNzk3XX0=
 -->
