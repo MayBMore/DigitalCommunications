@@ -137,6 +137,9 @@ plot(t,RFsignal);</code>
 > 다른 주파수로 평행이동 (frequency translation)
 
 ### RX
+> *참고 자료 : RX단 구조*
+> linear detector + sampling + hard decision
+
 #### coherent detection
 <pre>
 <code>%3. coherent detection
@@ -156,6 +159,6 @@ plot(t,Qch);</code>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM2ODczNzIxLDIzMTU3MDk5MCwtODUzMT
-IyNzk3XX0=
+eyJoaXN0b3J5IjpbLTg4ODQwOTI1OCwyMzE1NzA5OTAsLTg1Mz
+EyMjc5N119
 -->
