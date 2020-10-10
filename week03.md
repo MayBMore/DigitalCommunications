@@ -81,6 +81,10 @@ end</code>
 </pre>
 
 > * randi : random 함수. 1xNsym벡터에 2가 최대인 난수 발생
+> > bbSym이 왜 저런 함수를 가졌지
+
+> 1부터 t의 길이만큼 0을 가지는 벡터 bbInput 정의
+> > 
 
 ### frequency response graph
 <pre>
@@ -96,6 +100,6 @@ plot(abs(H));</code>
 > * figure(100) : 그래프 창 생성
 > * plot(abs(H)) : H의 절댓값한 그래프를 그려라.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0Mzk2MDE1LDIzMTU3MDk5MCwtODUzMT
-IyNzk3XX0=
+eyJoaXN0b3J5IjpbMjExMDAyMTc4NywyMzE1NzA5OTAsLTg1Mz
+EyMjc5N119
 -->
