@@ -111,9 +111,19 @@ plot(t,imag(bbsignal));</code>
 
 > * baseband signal을 알 수 있음
 > > * subplot 1 : bbInput
-> >* subplot 2 : bbInput의 실수
-> > * subplot 3 : bb
+> >* subplot 2 : bbInput의 실수부
+> > * subplot 3 : bbInput의 허수부
+
+#### up-conversion
+<pre>
+<code>%2. up-conversion
+RFsignal = real(bbsignal).*cos(2*pi*fc*t) - imag(bbsignal).*sin(2*pi*fc*t);
+
+subplot(N_subFig,1,4);
+plot(t,RFsignal);</code>
+</pre>
+>* TX에서 up-conversion (RX에서 down-conversi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg3MTM5Njg3LDIzMTU3MDk5MCwtODUzMT
-IyNzk3XX0=
+eyJoaXN0b3J5IjpbLTgxNTk0MDA0MCwyMzE1NzA5OTAsLTg1Mz
+EyMjc5N119
 -->
