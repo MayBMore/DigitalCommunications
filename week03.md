@@ -189,9 +189,10 @@ ph_tx= angle(bbSym);
 ph_rx=angle(bbSym_rx);</code>
 </pre>
 
-* 
+* bbSym_rx(i)에 받은 신호의 baseband symbol을 넣음
+* ph_tx에 처음에 보낸 bbSym
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzEzOTc1MjMsMTQ5NDQ0NDg5NCwyMz
-E1NzA5OTAsLTg1MzEyMjc5N119
+eyJoaXN0b3J5IjpbMjkwNTQ2ODE3LDE0OTQ0NDQ4OTQsMjMxNT
+cwOTkwLC04NTMxMjI3OTddfQ==
 -->
