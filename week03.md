@@ -43,7 +43,10 @@ plot(abs(H));</code>
 > * plot(abs(H)) : H의 절댓값한 그래프를 그려라.
 
 ***
-
+### 
+* Tp 간격을 늘리면(줄이면) 그래프가 어떻게 바뀌는가
+* Tp 첫번째와 마지막 숫자를 바꾸면 그래프가 어떻게 바뀌는가
+* Tp element의 수를 바꾸면 그래프가 어떻게 바뀌는가 
 ***
 ## RF sim
 
@@ -88,5 +91,5 @@ plot(abs(H));</code>
 > * figure(100) : 그래프 창 생성
 > * plot(abs(H)) : H의 절댓값한 그래프를 그려라.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODMzNDk4MjMsLTg1MzEyMjc5N119
+eyJoaXN0b3J5IjpbOTY3OTgwMDQ0LC04NTMxMjI3OTddfQ==
 -->
