@@ -190,9 +190,17 @@ ph_rx=angle(bbSym_rx);</code>
 </pre>
 
 * bbSym_rx(i)에 받은 신호의 baseband symbol을 넣음
-* ph_tx에 처음에 보낸 bbSym
+* ph_tx에 처음에 보낸 bbSym의 phase를 넣고 ph_rx에 받고 추정한 bbSym_rx의 phase를 넣음
 
+#### Error estimation
+<pre>
+<code>%5. Error estimation
+figure(2);
+plot(abs(ph_tx - ph_rx)) </code>
+</pre>
+
+* figure 2 창에 ph_tx와 ph_rx의 차의 절댓값을 그림
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkwNTQ2ODE3LDE0OTQ0NDQ4OTQsMjMxNT
-cwOTkwLC04NTMxMjI3OTddfQ==
+eyJoaXN0b3J5IjpbLTYwNzE5NDQxMiwxNDk0NDQ0ODk0LDIzMT
+U3MDk5MCwtODUzMTIyNzk3XX0=
 -->
