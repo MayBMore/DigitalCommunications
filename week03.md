@@ -165,11 +165,13 @@ plot(t,Qch);</code>
 	>		* symbol = 0 : y 최소화
 	>* Matched Filter
 	> SNR을 최대로 만들어주는 linear detector
-	>> g 
-	
-
+	```
+	g(tau-t) = c*s(t) 
+	--> SNR을 최대화 하는 g(t) 조건
+	c : normalization factor
+	Y
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0OTIxOTEyMywyMzE1NzA5OTAsLTg1Mz
+eyJoaXN0b3J5IjpbLTkxNDMyMDg1NiwyMzE1NzA5OTAsLTg1Mz
 EyMjc5N119
 -->
